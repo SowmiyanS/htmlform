@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+		<meta name="viewport" 
+    </head>
+    <body>
+        <div align="center">
+            <!--<h1 align="center">Create Account</h1>-->
+            <form>
+                <table>
+                    <tr>
+                        <td colspan="2"><h1>Create Account</h1></td>
+                    </tr>
+                    <tr>
+                        <td><label>First Name *</label><br><input type="text" required placeholder="enter your first name"></td>
+                        <td><label>Last Name</label><br><input type="text" required placeholder="enter your last name"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><label>Email *</label><br><input type="email" required placeholder="enter your email"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Password *</label><br><input type="password" required placeholder="enter your password"></td>
+                        <td><label>Confirm Password *</label><br><input type="password" required placeholder="enter your password again"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Gender:</label><br><input type="radio" text="Male"><label>Male</label><input type="radio" text="female"><label>Female</label></td>
+                        <td><label>Hobbies:</label><br><input type="checkbox" name="Music" id="hobbies"><label>Music</label><input type="checkbox" name="Travel" id="hobbies"><label></label>Travel<input type="checkbox" name="Sports" id="hobbies"><label>Sports</label><input type="checkbox" name="Movies" id="hobbies"><label>Movies</label></td>
+                    </tr>
+                    <tr>
+                        <td><label>Source of Income</label><br><select><option value="1">Employed</option><option value="0">Unemployed</option></select></td>
+                        <td><label>Income</label><br><input type="range" min="0" max="20000"><label>20k</label></td>
+                    </tr>
+                    <tr>
+                        <td><label>Upload Profile Picture</label><br><input type="file" id="picture"></td>
+                        <td><label>Age</label><br><input type="number" min="18" value="18"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><label>Bio</label><br><textarea></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button>Create</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
